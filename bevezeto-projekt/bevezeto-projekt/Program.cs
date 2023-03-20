@@ -1,4 +1,21 @@
-﻿/// <summary>
+﻿// O1.05 OOP programozás
+// Az OOP programozás során a programokat objektumokból építjük fel.
+//  - Minden objektumnak megvan a jól meghatározott feladata.
+//  - Az objektumok képesek egymással kommunikálni.
+//  - OOP programozás során a programozást közelítjük az emberi gondolkodáshoz.
+
+// O1.06 Példányosítás
+// Cat osztály példányosítása (create instance of class).
+//  - A myCat objektum a Cat osztály egy példánya.
+//  - A lokális változókat írásakor a caneCaseing jelölést használunk.
+Cat myCat = new Cat();
+
+// O1.07 Példányosított objektum viselkedik (beszél)
+// A myCat objektum képes "beszélni". Az eredményt most a konzolon olvashatjuk.            
+myCat.Say();
+
+
+/// <summary>
 /// O1.01 Cat(macska) osztály
 /// Az osztály egy kiterjesztett adat típus. Az osztály egy program kód sablon, amelyben 
 /// állapotokat (adatokat) és viselkedési mintákat, műveleteket (metódusokat) lehet definiálni.
@@ -39,30 +56,4 @@ public class Dog
 
 }
 
-// O1.05 OOP programozás
-// Az OOP programozás során a programokat objektumokból építjük fel.
-//  - Minden objektumnak megvan a jól meghatározott feladata.
-//  - Az objektumok képesek egymással kommunikálni.
-//  - OOP programozás során a programozást közelítjük az emberi gondolkodáshoz.
 
-// O1.06 Példányosítás
-// Cat osztály példányosítása (create instance of class).
-//  - A myCat objektum a Cat osztály egy példánya.
-//  - A lokális változókat írásakor a caneCaseing jelölést használunk.
-Cat myCat = new Cat();
-
-// O1.05 OOP programozás
-// Az OOP programozás során a programokat objektumokból építjük fel.
-//  - Minden objektumnak megvan a jól meghatározott feladata.
-//  - Az objektumok képesek egymással kommunikálni.
-//  - OOP programozás során a programozást közelítjük az emberi gondolkodáshoz.
-
-// O1.06 Példányosítás
-// Cat osztály példányosítása (create instance of class).
-//  - A myCat objektum a Cat osztály egy példánya.
-//  - A lokális változókat írásakor a camrelCaseing jelölést használunk.
-Cat myCat = new Cat();
-
-// O1.07 Példányosított objektum viselkedik (beszél)
-// A myCat objektum képes "beszélni". Az eredményt most a konzolon olvashatjuk.            
-myCat.Say();
