@@ -20,4 +20,10 @@ public class Cat
         }
 
 }
+/// <summary>
+/// O1.3 Dog (kutya) osztály
+/// </summary>
+public class Dog
+{
+}
 
